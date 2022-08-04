@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import ClassExample from "./components/ClassExample";
+// import PropExample from "./components/PropExample";
+
+// import ButtonInsideFunction from "./components/ButtonInsideFunction";
+// import StateExample from "./components/StateExample";
+// import UseStateInsideFunction from "./components/UseStateInsideFunction";
+// import PropsInsideClassComponent from "./components/PropsInsideClassComponent";
+import GetInputValue from "./components/GetInputValue";
+import HideAndShowElement from "./components/HideAndShowElement";
+import ToggleShowAndHide from "./components/ToggleShowAndHide";
+import GetInputValueByClickButton from "./GetInputValueByClickButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ClassExample />,
+      <PropExample name="Selvi" />
+      <ButtonInsideFunction />
+      <StateExample />
+      <UseStateInsideFunction />
+      <PropsInsideClassComponent email = 'selvi@gmail.com'/> */}
+      <GetInputValue />
+      <GetInputValueByClickButton />
+      <HideAndShowElement />
+      <ToggleShowAndHide />
+
     </div>
   );
 }

@@ -6,10 +6,11 @@ import React from "react";
 // import StateExample from "./components/StateExample";
 // import UseStateInsideFunction from "./components/UseStateInsideFunction";
 // import PropsInsideClassComponent from "./components/PropsInsideClassComponent";
-import GetInputValue from "./components/GetInputValue";
-import HideAndShowElement from "./components/HideAndShowElement";
-import ToggleShowAndHide from "./components/ToggleShowAndHide";
-import GetInputValueByClickButton from "./GetInputValueByClickButton";
+//import GetInputValue from "./components/GetInputValue";
+import HandleForm from "./components/HandleForm";
+// import HideAndShowElement from "./components/HideAndShowElement";
+// import ToggleShowAndHide from "./components/ToggleShowAndHide";
+// import GetInputValueByClickButton from "./components/GetInputValueByClickButton";
 
 function App() {
   return (
@@ -20,10 +21,11 @@ function App() {
       <StateExample />
       <UseStateInsideFunction />
       <PropsInsideClassComponent email = 'selvi@gmail.com'/> */}
-      <GetInputValue />
+      {/* <GetInputValue />
       <GetInputValueByClickButton />
       <HideAndShowElement />
-      <ToggleShowAndHide />
+      <ToggleShowAndHide /> */}
+      <HandleForm />
 
     </div>
   );
